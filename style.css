@@ -1,0 +1,79 @@
+@keyframes body {
+  from {background-color: grey;}
+  to {background-color: ghostwhite;}
+}
+
+body{
+  background-color:ghostwhite;
+  animation-name: body;
+  animation-duration: 2s;
+}
+
+@keyframes nav {
+  from {background-color:grey}
+  to {background-color: #212529;}
+}
+
+.nav{
+  height: 12vh;
+  animation-name: nav;
+  animation-duration: 2s;
+}
+
+@keyframes jumbo {
+  from {background-color:grey}
+  to {background-color:#E9ECEF;}
+}
+
+
+.jumbotron {
+	text-align: center;
+  background-color: #E9ECEF;
+  height: 65vh;
+  padding-top: 4rem;
+  animation-name: jumbo;
+  animation-duration: 2s;
+}
+
+.btn-lg{
+  margin-top: 2rem;
+}
+
+@keyframes forms {
+  from {background-color:whitesmoke}
+  to {background-color: mistyrose;}
+  from {margin-top: 0;}
+  to {margin-top: 2rem;}
+}
+
+.registration-form, .login-form{
+	width: 800px;
+	margin: 10px auto;
+  margin-top: 2rem;
+	border-radius: 20px;
+	padding: 10px 10px 30px;
+	box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+  background-color: mistyrose;
+  animation-name: forms;
+  animation-duration: 2s;
+
+}
+
+.login-form {
+	margin-top: 100px;
+	padding: 10px 30px 30px;
+  margin-bottom: 2rem;
+}
+
+.sign-up-title, .login-title, .button-wrapper {
+	text-align: center;
+}
+
+.signup-alert, .login-alert {
+	margin: 10px auto 20px;
+	display: none;
+}
+
+.login-alert {
+	width: 75%;
+}
